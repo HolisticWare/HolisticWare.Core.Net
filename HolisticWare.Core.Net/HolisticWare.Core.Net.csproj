@@ -41,10 +41,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Core\Net\HttpRequest.cs" />
-    <Compile Include="Core\Net\HttpWebRequestExtensions.cs" />
     <Compile Include="Core\Net\Response.cs" />
     <Compile Include="Core\Net\WebRequestExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="System\Net\Http.cs" />
+    <Compile Include="System\Net\HttpWebRequestExtensions.cs" />
+    <Compile Include="System\Net\WebRequestExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Net.Http">
