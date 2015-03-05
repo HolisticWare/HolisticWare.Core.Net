@@ -182,7 +182,8 @@ UpgradeLog*.htm
 # Microsoft Fakes
 FakesAssemblies/
 
-#==============================================================================
+
+#============#==============================================================================
 # HolisticWare
 
 # MacOSX
@@ -198,6 +199,8 @@ FakesAssemblies/
 **/packages/
 **/.nuget/
 
+**/*data*
+**/*secured*
 **/*.data.*
 **/*.data.bat
 **/*.data.sh
