@@ -12,7 +12,13 @@ namespace Core.Net.Http
 		{
 		}
 
-		public async Task<string> Get (string url, Dictionary<string, string> headers)
+		public async
+			Task<string>
+									Get
+										(
+											string url,
+											Dictionary<string, string> headers
+										)
 		{
 			WebRequest w_request = WebRequest.Create (url);
 
@@ -35,11 +41,11 @@ namespace Core.Net.Http
 			// hw_request.Headers [HttpRequestHeader.UserAgent] = user_agent;
 			//....................................................
 			// setting property through reflection!! CRAP
-			hw_request.SetHeader
-							(
-							  "User-Agent"
-							 , user_agent
-							);
+			hw_request.Headers.Add
+								(
+								  "User-Agent"
+								 , user_agent
+								);
 			//-----------------------------------------------------------------------------------
 
 			foreach (KeyValuePair<string, string> kvp in headers)

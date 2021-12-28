@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>Core.Net.HTTP</RootNamespace>
+        <AssemblyName>HolisticWare.Core.Net.HTTP</AssemblyName>
+    </PropertyGroup>
+      
+    <PropertyGroup>
+        <PackageId>
+            HolisticWare.Core.Net.HTTP
+        </PackageId>
+        <Title>
+            HolisticWare.Core.Net.HTTP
+        </Title>
+        <summary>
+            HolisticWare.Core.Net.HTTP package
+        </summary>
+        <Description>
+            HolisticWare.Core.Net.HTTP package
+        </Description>
+    </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Core.Net.HTTP\IO\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\externals-submodules\HW.IO\source\HolisticWare.Core.IO\HolisticWare.Core.IO.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.39" />
+    <PackageReference Include="System.Diagnostics.Tracing" Version="4.3.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="6.0.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.BannedApiAnalyzers" Version="3.3.3" />
+    <PackageReference Include="Microsoft.CodeAnalysis.PublicApiAnalyzers" Version="3.3.3" />
+    <PackageReference Include="Roslynator.Analyzers" Version="3.3.0" />
+    <PackageReference Include="Roslynator.CodeAnalysis.Analyzers" Version="3.3.0" />
+    <PackageReference Include="Roslynator.Formatting.Analyzers" Version="3.3.0" />
+    <PackageReference Include="AsyncFixer" Version="1.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Microsoft.CodeAnalysis.NetAnalyzers" />
+    <None Remove="Microsoft.CodeAnalysis.BannedApiAnalyzers" />
+    <None Remove="Microsoft.CodeAnalysis.PublicApiAnalyzers" />
+    <None Remove="Roslynator.Analyzers" />
+    <None Remove="Roslynator.CodeAnalysis.Analyzers" />
+    <None Remove="Roslynator.Formatting.Analyzers" />
+    <None Remove="AsyncFixer" />
+  </ItemGroup>
+</Project>
