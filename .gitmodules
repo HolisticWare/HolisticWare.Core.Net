@@ -1,0 +1,3 @@
+[submodule "externals-submodules/HWC.IO"]
+	path = externals-submodules/HWC.IO
+	url = https://github.com/HolisticWare/HolisticWare.Core.IO.git
