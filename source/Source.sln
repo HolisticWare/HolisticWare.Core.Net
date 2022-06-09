@@ -1,24 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.3.32519.111
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HolisticWare.Core.Net", "HolisticWare.Core.Net\HolisticWare.Core.Net.csproj", "{8F510C5A-85FF-48CF-A925-F67E9CDBD7B0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolisticWare.Core.Net", "HolisticWare.Core.Net\HolisticWare.Core.Net.csproj", "{8F510C5A-85FF-48CF-A925-F67E9CDBD7B0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HolisticWare.Core.Net.HTTP", "HolisticWare.Core.Net.HTTP\HolisticWare.Core.Net.HTTP.csproj", "{F174C716-C9A2-482C-8B43-FDD88DDFBF00}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolisticWare.Core.Net.HTTP", "HolisticWare.Core.Net.HTTP\HolisticWare.Core.Net.HTTP.csproj", "{F174C716-C9A2-482C-8B43-FDD88DDFBF00}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3C4B5880-1A37-4218-B93A-3DC34724C2FA}"
 	ProjectSection(SolutionItems) = preProject
 		Directory.Build.props = Directory.Build.props
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "externals-submodules", "externals-submodules", "{9299D986-65D5-4990-898D-B53E5C380EA9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "externals-submodules", "externals-submodules", "{0C92140B-A7DC-4C07-B4DB-AFF04864F5F7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core.IO", "Core.IO", "{4CF39F6D-F4E4-47A6-905C-E3392A6AE66E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code.IO", "Code.IO", "{061EF6AE-DECF-435B-9BB6-8F74F436EA86}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HolisticWare.Core.IO", "..\externals-submodules\HWC.IO\source\HolisticWare.Core.IO\HolisticWare.Core.IO.csproj", "{19C40DD3-47DC-462F-8343-1119503C663F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolisticWare.Core.IO", "..\externals-submodules\HWC.IO\source\HolisticWare.Core.IO\HolisticWare.Core.IO.csproj", "{BAE92CCF-1403-4B9A-A02F-120BED1E056B}"
 EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		HolisticWare.Core.Math.Statistics.Descriptive.Sequential\HolisticWare.Core.Math.Statistics.Descriptive.Sequential.projitems*{920d7d0f-3fae-4c77-9174-23e7a4e80e50}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -32,19 +35,19 @@ Global
 		{F174C716-C9A2-482C-8B43-FDD88DDFBF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F174C716-C9A2-482C-8B43-FDD88DDFBF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F174C716-C9A2-482C-8B43-FDD88DDFBF00}.Release|Any CPU.Build.0 = Release|Any CPU
-		{19C40DD3-47DC-462F-8343-1119503C663F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{19C40DD3-47DC-462F-8343-1119503C663F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{19C40DD3-47DC-462F-8343-1119503C663F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{19C40DD3-47DC-462F-8343-1119503C663F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAE92CCF-1403-4B9A-A02F-120BED1E056B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAE92CCF-1403-4B9A-A02F-120BED1E056B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAE92CCF-1403-4B9A-A02F-120BED1E056B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAE92CCF-1403-4B9A-A02F-120BED1E056B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{4CF39F6D-F4E4-47A6-905C-E3392A6AE66E} = {9299D986-65D5-4990-898D-B53E5C380EA9}
-		{19C40DD3-47DC-462F-8343-1119503C663F} = {4CF39F6D-F4E4-47A6-905C-E3392A6AE66E}
-	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {440F697D-77CA-4EA5-9C13-585B4998A64A}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{061EF6AE-DECF-435B-9BB6-8F74F436EA86} = {0C92140B-A7DC-4C07-B4DB-AFF04864F5F7}
+		{BAE92CCF-1403-4B9A-A02F-120BED1E056B} = {061EF6AE-DECF-435B-9BB6-8F74F436EA86}
 	EndGlobalSection
 EndGlobal

@@ -30,4 +30,7 @@
     <ItemGroup>
       <Folder Include="Core\Net\HTTP\" />
     </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\HolisticWare.Core.Net.HTTP\HolisticWare.Core.Net.HTTP.csproj" />
+    </ItemGroup>
 </Project>

@@ -24,13 +24,12 @@
     <Folder Include="Core.Net.HTTP\IO\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\externals-submodules\HWC.IO\source\HolisticWare.Core.IO\HolisticWare.Core.IO.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="HtmlAgilityPack" Version="1.11.43" />
     <PackageReference Include="System.Diagnostics.Tracing" Version="4.3.0" />
 
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\externals-submodules\HWC.IO\source\HolisticWare.Core.IO\HolisticWare.Core.IO.csproj" />
+  </ItemGroup>
 </Project>
