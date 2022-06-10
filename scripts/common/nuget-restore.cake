@@ -25,11 +25,12 @@ Task("nuget-restore-externals")
                 Information("File: {0}", file);
         		NuGetRestore
                     (
-                        file, 
-                        new NuGetRestoreSettings 
-                        { 
-                            PackagesDirectory = $"{file.GetDirectory()}/packages"
-                        } 
+                        file,
+                        new NuGetRestoreSettings
+                        {
+                            // separate folder for nuget packages for analysis
+                            PackagesDirectory = $"{file.ToString()}-packages"
+                        }
                     );
             }
 
@@ -39,11 +40,12 @@ Task("nuget-restore-externals")
                 Information("File: {0}", file);
         		NuGetRestore
                     (
-                        file, 
-                        new NuGetRestoreSettings 
-                        { 
-                            PackagesDirectory = $"{file.GetDirectory()}/packages"
-                        } 
+                        file,
+                        new NuGetRestoreSettings
+                        {
+                            // separate folder for nuget packages for analysis
+                            PackagesDirectory = $"{file.ToString()}-packages"
+                        }
                     );
             }
 
@@ -53,11 +55,12 @@ Task("nuget-restore-externals")
                 Information("File: {0}", file);
         		NuGetRestore
                     (
-                        file, 
-                        new NuGetRestoreSettings 
-                        { 
-                            PackagesDirectory = $"{file.GetDirectory()}/packages"
-                        } 
+                        file,
+                        new NuGetRestoreSettings
+                        {
+                            // separate folder for nuget packages for analysis
+                            PackagesDirectory = $"{file.GetDirectory()}-packages"
+                        }
                     );
             }
 
@@ -67,11 +70,12 @@ Task("nuget-restore-externals")
                 Information("File: {0}", file);
         		NuGetRestore
                     (
-                        file, 
-                        new NuGetRestoreSettings 
-                        { 
-                            PackagesDirectory = $"{file.GetDirectory()}/packages"
-                        } 
+                        file,
+                        new NuGetRestoreSettings
+                        {
+                            // separate folder for nuget packages for analysis
+                            PackagesDirectory = $"{file.GetDirectory()}-packages"
+                        }
                     );
             }
 
@@ -91,11 +95,12 @@ Task("nuget-restore-libs")
                 Information("File: {0}", file);
         		NuGetRestore
                     (
-                        file, 
-                        new NuGetRestoreSettings 
-                        { 
-                            PackagesDirectory = $"{file.GetDirectory()}/packages"
-                        } 
+                        file,
+                        new NuGetRestoreSettings
+                        {
+                            // separate folder for nuget packages for analysis
+                            PackagesDirectory = $"{file.ToString()}-packages"
+                        }
                     );
             }
 
@@ -105,11 +110,12 @@ Task("nuget-restore-libs")
                 Information("File: {0}", file);
         		NuGetRestore
                     (
-                        file, 
-                        new NuGetRestoreSettings 
-                        { 
-                            PackagesDirectory = $"{file.GetDirectory()}/packages"
-                        } 
+                        file,
+                        new NuGetRestoreSettings
+                        {
+                            // separate folder for nuget packages for analysis
+                            PackagesDirectory = $"{file.GetDirectory()}-packages"
+                        }
                     );
             }
 
@@ -129,11 +135,12 @@ Task("nuget-restore-samples")
                 Information("File: {0}", file);
         		NuGetRestore
                     (
-                        file, 
-                        new NuGetRestoreSettings 
-                        { 
-                            PackagesDirectory = $"{file.GetDirectory()}/packages"
-                        } 
+                        file,
+                        new NuGetRestoreSettings
+                        {
+                            // separate folder for nuget packages for analysis
+                            PackagesDirectory = $"{file.ToString()}-packages"
+                        }
                     );
             }
 
@@ -143,11 +150,12 @@ Task("nuget-restore-samples")
                 Information("File: {0}", file);
         		NuGetRestore
                     (
-                        file, 
-                        new NuGetRestoreSettings 
-                        { 
-                            PackagesDirectory = $"{file.GetDirectory()}/packages"
-                        } 
+                        file,
+                        new NuGetRestoreSettings
+                        {
+                            // separate folder for nuget packages for analysis
+                            PackagesDirectory = $"{file.GetDirectory()}-packages"
+                        }
                     );
             }
 
@@ -168,11 +176,12 @@ Task("nuget-restore-tests")
                 Information("File: {0}", file);
         		NuGetRestore
                     (
-                        file, 
-                        new NuGetRestoreSettings 
-                        { 
-                            PackagesDirectory = $"{file.GetDirectory()}/packages"
-                        } 
+                        file,
+                        new NuGetRestoreSettings
+                        {
+                            // separate folder for nuget packages for analysis
+                            PackagesDirectory = $"{file.ToString()}-packages"
+                        }
                     );
             }
 
@@ -182,11 +191,12 @@ Task("nuget-restore-tests")
                 Information("File: {0}", file);
         		NuGetRestore
                     (
-                        file, 
-                        new NuGetRestoreSettings 
-                        { 
-                            PackagesDirectory = $"{file.GetDirectory()}/packages"
-                        } 
+                        file,
+                        new NuGetRestoreSettings
+                        {
+                            // separate folder for nuget packages for analysis
+                            PackagesDirectory = $"{file.GetDirectory()}-packages"
+                        }
                     );
             }
 

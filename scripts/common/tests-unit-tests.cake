@@ -120,7 +120,7 @@ Task("unit-tests-xunit")
                 (
                     "./tests/unit-tests/project-references/UnitTests.XUnit/UnitTests.XUnit.csproj",
                     //"xunit",  "--no-build -noshadow"
-                    new DotNetCoreTestSettings()
+                    new DotNeTestSettings()
                     {
                         ResultsDirectory = reports,
                     }
@@ -173,7 +173,7 @@ Task("unit-tests-mstest")
                     ResultsFile = "./externals/results/unit-tests/MSTest.txt",
                 }
             );
-            DotNetCoreTest
+            DotNetTest
             (
                 "./tests/unit-tests/project-references/UnitTests.MSTest/UnitTests.MSTest.csproj",
                 //"xunit",  "--no-build -noshadow"
