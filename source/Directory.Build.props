@@ -56,6 +56,7 @@
     <PackageIconUrl>
         https://secure.gravatar.com/avatar/b662959e712466f393541935b664d3c5        
     </PackageIconUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <license>LICENSE</license>
     <licenseUrl>
         https://github.com/HolisticWare/HolisticWare.Core.Net/blob/master/LICENSE
@@ -66,8 +67,8 @@
     <VersionPrefix>0.0.1</VersionPrefix>
     <!--
     VersionSuffix - For debugging and local nuget feed 
-    -->        
     <VersionSuffix>alpha-$([System.DateTime]::Now.ToString('yyyyMMddHHmm'))</VersionSuffix>
+    -->        
     <PackageVersion>$(Version)</PackageVersion>
 
     <!-- 
