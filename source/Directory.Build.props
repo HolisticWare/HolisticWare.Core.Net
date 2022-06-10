@@ -61,9 +61,6 @@
     <licenseUrl>
         https://github.com/HolisticWare/HolisticWare.Core.Net/blob/master/LICENSE
     </licenseUrl>
-    <PackageLicenseUrl>
-        https://github.com/HolisticWare/HolisticWare.Core.Net/blob/master/LICENSE
-    </PackageLicenseUrl>
     <VersionPrefix>0.0.1</VersionPrefix>
     <!--
     VersionSuffix - For debugging and local nuget feed 
