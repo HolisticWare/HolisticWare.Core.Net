@@ -1,8 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-
+﻿
 namespace Core.Net.HTTP.IO
 {
+    using System;
+    using System.Collections.Generic;
+
     /// <summary>
     /// Directory
     /// </summary>

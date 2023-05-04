@@ -1,10 +1,10 @@
-﻿using System;
-using System.Net;
-using System.Net.Http;
-using System.Threading.Tasks;
-
-namespace Core.Net.HTTP
+﻿namespace Core.Net.HTTP
 {
+    using System;
+    using System.Net;
+    using System.Net.Http;
+    using System.Threading.Tasks;
+
     /// <summary>
     /// 
     /// </summary>

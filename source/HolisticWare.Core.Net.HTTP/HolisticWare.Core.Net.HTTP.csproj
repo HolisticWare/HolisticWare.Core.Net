@@ -18,21 +18,26 @@
         <Description>
             HolisticWare.Core.Net.HTTP package
         </Description>
+        <VersionPrefix>0.0.3</VersionPrefix>
+        <!--
+        VersionSuffix - For debugging and local nuget feed 
+        <VersionSuffix>alpha-$([System.DateTime]::Now.ToString('yyyyMMddHHmm'))</VersionSuffix>
+        -->        
+        <PackageVersion>$(Version)</PackageVersion>
     </PropertyGroup>
 
   <ItemGroup>
     <Folder Include="Core.Net.HTTP\IO\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="HtmlAgilityPack" Version="1.11.43" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.46" />
     <PackageReference Include="System.Diagnostics.Tracing" Version="4.3.0" />
-
   </ItemGroup>
 
   <ItemGroup>
     <!--
     <ProjectReference Include="..\..\externals-submodules\HWC.IO\source\HolisticWare.Core.IO\HolisticWare.Core.IO.csproj" />
     -->
-    <PackageReference Include="HolisticWare.Core.IO" Version="0.0.1" />
+    <PackageReference Include="HolisticWare.Core.IO" Version="0.0.3" />
   </ItemGroup>
 </Project>

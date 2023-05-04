@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-using HtmlAgilityPack;
-
-namespace Core.Net.HTTP.IO
+﻿namespace Core.Net.HTTP.IO
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Threading.Tasks;
+
+    using HtmlAgilityPack;
+
     /// <summary>
     /// Directory is FileSystemItem
     /// </summary>
