@@ -61,13 +61,6 @@
     <licenseUrl>
         https://github.com/HolisticWare/HolisticWare.Core.Net/blob/master/LICENSE
     </licenseUrl>
-    <VersionPrefix>0.0.1</VersionPrefix>
-    <!--
-    VersionSuffix - For debugging and local nuget feed 
-    <VersionSuffix>alpha-$([System.DateTime]::Now.ToString('yyyyMMddHHmm'))</VersionSuffix>
-    -->        
-    <PackageVersion>$(Version)</PackageVersion>
-
     <!-- 
     put the package output into a nuget test folder 
     -->
@@ -96,9 +89,9 @@
       For clarity, without PrivateAssets marked here, anyone consuming Microsoft.Identity.Client
       would also be forced to install these dependencies.  PrivateAssets avoids this problem. 
     -->
-    <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="6.0.0" PrivateAssets="All" />
-    <PackageReference Include="Microsoft.CodeAnalysis.BannedApiAnalyzers" Version="3.3.3" PrivateAssets="All" />
-    <PackageReference Include="Microsoft.CodeAnalysis.PublicApiAnalyzers" Version="3.3.3" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="7.0.1" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.CodeAnalysis.BannedApiAnalyzers" Version="3.3.4" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.CodeAnalysis.PublicApiAnalyzers" Version="3.3.4" PrivateAssets="All" />
     <!--
     https://github.com/dotnet/roslyn-analyzers
     package has been deprecated in favor of 'Microsoft.CodeAnalysis.NetAnalyzers'
@@ -132,16 +125,16 @@
 
       https://www.nuget.org/packages/Roslynator.DotNet.Cli
     -->
-    <PackageReference Include="Roslynator.Analyzers" Version="3.0.0" PrivateAssets="All" />
-    <PackageReference Include="Roslynator.CodeAnalysis.Analyzers" Version="1.0.0" PrivateAssets="All" />
-    <PackageReference Include="Roslynator.Formatting.Analyzers" Version="1.0.0" PrivateAssets="All" />
+    <PackageReference Include="Roslynator.Analyzers" Version="4.3.0" PrivateAssets="All" />
+    <PackageReference Include="Roslynator.CodeAnalysis.Analyzers" Version="4.3.0" PrivateAssets="All" />
+    <PackageReference Include="Roslynator.Formatting.Analyzers" Version="4.3.0" PrivateAssets="All" />
 
 
     <PackageReference Include="AsyncUsageAnalyzers" Version="1.0.0-alpha003" PrivateAssets="All" />
     <!--
       http://www.asyncfixer.com/
     -->
-    <PackageReference Include="AsyncFixer" Version="1.0.0" PrivateAssets="All" />
+    <PackageReference Include="AsyncFixer" Version="1.6.0" PrivateAssets="All" />
 
   </ItemGroup>
 
