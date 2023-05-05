@@ -50,22 +50,36 @@
     <RepositoryUrl>
         https://github.com/HolisticWare/HolisticWare.Core.Net
     </RepositoryUrl>
-    <iconUrl>
-        https://secure.gravatar.com/avatar/b662959e712466f393541935b664d3c5
-    </iconUrl>
-    <PackageIconUrl>
-        https://secure.gravatar.com/avatar/b662959e712466f393541935b664d3c5        
-    </PackageIconUrl>
+    <!--
+        https://github.com/NuGet/Announcements/issues/32
+        https://learn.microsoft.com/en-us/nuget/reference/msbuild-targets#packing-a-license-expression-or-a-license-file
+    -->
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <license>LICENSE</license>
     <licenseUrl>
         https://github.com/HolisticWare/HolisticWare.Core.Net/blob/master/LICENSE
     </licenseUrl>
-    <!-- 
-    put the package output into a nuget test folder 
+    <PackageIcon>icon.png</PackageIcon>
+    <!--
+    <iconUrl>
+        https://secure.gravatar.com/avatar/b662959e712466f393541935b664d3c5
+    </iconUrl>
+    <PackageIconUrl>
+        https://secure.gravatar.com/avatar/b662959e712466f393541935b664d3c5
+    </PackageIconUrl>
+    -->
+
+    <!--
+    put the package output into a nuget test folder
     -->
     <PackageOutputPath>../../output</PackageOutputPath>
   </PropertyGroup>
+
+
+  <ItemGroup>
+    <None Include="..\..\readme.md" Pack="true" PackagePath="\README.md"/>
+    <None Include="..\..\docs\media\HolisticWare.svg.128x128.png" Pack="true" PackagePath="\icon.png"/>
+  </ItemGroup>
 
 
   <!--
