@@ -18,7 +18,7 @@
         <Description>
             HolisticWare.Core.Net.HTTP package
         </Description>
-        <VersionPrefix>0.0.3</VersionPrefix>
+        <VersionPrefix>0.0.4</VersionPrefix>
         <!--
         VersionSuffix - For debugging and local nuget feed 
         <VersionSuffix>alpha-$([System.DateTime]::Now.ToString('yyyyMMddHHmm'))</VersionSuffix>
@@ -38,6 +38,6 @@
     <!--
     <ProjectReference Include="..\..\externals-submodules\HWC.IO\source\HolisticWare.Core.IO\HolisticWare.Core.IO.csproj" />
     -->
-    <PackageReference Include="HolisticWare.Core.IO" Version="0.0.3" />
+    <PackageReference Include="HolisticWare.Core.IO" Version="0.0.4" />
   </ItemGroup>
 </Project>
